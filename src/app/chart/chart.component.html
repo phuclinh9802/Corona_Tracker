@@ -1,15 +1,18 @@
 <select (change)="getCountry($event.target.value)">
+    <option>All</option>
     <option *ngFor="let country of countries" value="{{country.Country}}">
         {{ country.Country }}
     </option>
 </select>
 <button (click)="getInfo()">Get Info</button>
+<button id="showButton" (click)="showChart()">Show Chart</button>
 <button (click)="clear()">Clear</button>
 <!-- <ul>
     <li *ngFor="let confirmed of confirmArray">
         {{ confirmed }}
     </li>
 </ul> -->
-<div>
-    <canvas id="myChart" width="800" height="500"></canvas>
+
+<div style="width: 50%">
+    <canvas id="myChart" width="400" height="900"></canvas>
 </div>

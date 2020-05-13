@@ -1,8 +1,11 @@
-
+body {
+    width: 100%;
+    background: #0f185e;
+}
 nav {
     font-family: sans-serif;
     padding: 5px 0;
-    background: #143D59;
+    background: #0f185e;
 }
 
 ul {
