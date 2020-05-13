@@ -34,4 +34,8 @@ export class ChartComponent implements OnInit {
     // alert(this.country);
   }
 
+  clear(): void {
+    this.confirmArray = [];
+  }
+
 }
