@@ -1,0 +1,26 @@
+
+nav {
+    font-family: sans-serif;
+    padding: 5px 0;
+    background: #143D59;
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-evenly;
+}
+li a {
+    text-decoration: none;
+    color: #F4B41A;
+    font-family: cursive;
+    font-size: 1.5em;
+    letter-spacing: 2px;
+    transition: 0.3s ease-in;
+    
+}
+
+li a:hover { 
+    background-color: #F4B41A;
+    color: #143D59;
+}

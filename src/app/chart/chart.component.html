@@ -1,0 +1,11 @@
+<select (change)="getCountry($event.target.value)">
+    <option *ngFor="let country of countries" value="{{country.Country}}">
+        {{ country.Country }}
+    </option>
+</select>
+<button (click)="getInfo()">Get Info</button>
+<ul>
+    <li *ngFor="let confirmed of confirmArray">
+        {{ confirmed }}
+    </li>
+</ul>
