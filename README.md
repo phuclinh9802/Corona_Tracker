@@ -26,8 +26,8 @@ Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protrac
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
 
-## Project Details:
-  # First Step - First Look: A Simple Application to track COVID-19 cases data.
+# Project Details:
+  ## First Step - First Look: A Simple Application to track COVID-19 cases data.
    - Using ```ng generate component chart``` and ```ng generate component table``` to generate Single-page-application (SPA) components for the project. 
    - The components need Angular Service to get data from remote server. In this case, I am messing around with the API from https://api.covid19api.com/.
    - Next, I generate a separated ```app-routing-module``` to build router so that I can create navigation bar. I generated the file using command "ng g m app-routing". (g - generate, m - module).
