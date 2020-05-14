@@ -57,16 +57,18 @@ export class ChartComponent implements OnInit {
             data: this.confirmArray,
             label: "Confirmed",
             borderColor: "green",
+            backgroundColor: "rgba(0,128,0,0.4)",
             fontColor: "#eee",
-            fill: false
+            fill: true
             
           },
           { 
             data: this.recoverArray,
             label: "Recovered",
             borderColor: "yellow",
+            backgroundColor: "rgba(255,255,0,0.5)",
             fontColor: "#eee",
-            fill: false
+            fill: true
             
           },
           { 
@@ -74,7 +76,7 @@ export class ChartComponent implements OnInit {
             label: "Deaths",
             borderColor: "red",
             fontColor: "#eee",
-            fill: false
+            fill: true
           }
         ]
       },
