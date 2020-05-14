@@ -1,4 +1,53 @@
 p  {
-    color: white;
-    font-size: 2em;
+    font-family: 'Noto Sans', sans-serif;
+    color: #111;
+    font-size: 12px;
+}
+
+.latest {
+    font-family: 'Lato', sans-serif;
+    color: #F4B41A;
+    padding: 20px 0;
+}
+.box {
+    height: 400px;
+    width: 80%;
+    border: 1px solid #eee;
+    overflow: scroll;
+    overflow-x: hidden;
+}
+
+
+.box::-webkit-scrollbar {
+    width: 10px;
+}
+
+.box::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px grey; 
+    border-radius: 10px;
+}
+
+.box::-webkit-scrollbar-thumb {
+    background: rgba(255,255,255,0.5);
+    border-radius: 4px;
+}
+
+.box p {
+    color: #eee;
+}
+
+a {
+    text-decoration: none;
+    color: #eee;
+    font-family: 'Noto Sans';
+    font-weight: 400;
+}
+
+.component {
+    border-bottom: 1px dashed #ddd;
+    padding: 10px;
+}
+
+.component:hover {
+    background: rgba(255,255,255,0.1);
 }
