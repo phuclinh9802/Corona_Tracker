@@ -6,12 +6,16 @@ import { ChartComponent } from './chart/chart.component';
 import { TableComponent } from './table/table.component';
 import { AppRoutingModule } from './app-routing.module';
 import { HttpClientModule } from '@angular/common/http';
+import { ChartingComponent } from './charting/charting.component';
+import { NewsComponent } from './news/news.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     ChartComponent,
-    TableComponent
+    TableComponent,
+    ChartingComponent,
+    NewsComponent
   ],
   imports: [
     BrowserModule,

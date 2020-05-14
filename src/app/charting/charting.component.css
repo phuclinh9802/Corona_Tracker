@@ -1,0 +1,8 @@
+select {
+    background: #333;
+    color: white;
+}
+
+option {
+    border-top: 1px solid #eee;
+}

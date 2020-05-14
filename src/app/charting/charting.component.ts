@@ -2,13 +2,12 @@ import { Component, OnInit } from '@angular/core';
 import { CoronaService} from '../corona.service';
 import { Chart } from 'node_modules/chart.js'
 import { discardPeriodicTasks } from '@angular/core/testing';
-
 @Component({
-  selector: 'app-chart',
-  templateUrl: './chart.component.html',
-  styleUrls: ['./chart.component.css']
+  selector: 'app-charting',
+  templateUrl: './charting.component.html',
+  styleUrls: ['./charting.component.css']
 })
-export class ChartComponent implements OnInit {
+export class ChartingComponent implements OnInit {
   countries: any;
   confirmed: any;
   recovered: any;
@@ -119,6 +118,7 @@ export class ChartComponent implements OnInit {
   }
 
   clear(): void {
+    alert("Information has been cleared! Now you can search for new information.");
     this.confirmArray = [];
     this.deathArray = [];
     this.recoverArray = [];
