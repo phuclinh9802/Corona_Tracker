@@ -86,6 +86,11 @@ export class ChartingComponent implements OnInit {
         maintainAspectRatio: false,
         scales: {
           xAxes: [{
+            scaleLabel: {
+              display: true,
+              labelString: 'Total # of Days',
+              fontColor: '#eee'
+            },
             gridLines: {
               display: true,
               color: '#aaa',
@@ -96,6 +101,11 @@ export class ChartingComponent implements OnInit {
             }
           }],
           yAxes: [{
+            scaleLabel: {
+              display: true,
+              labelString: '# of People',
+              fontColor: '#eee'
+            },
             gridLines: {
               display: true,
               color: '#aaa',
